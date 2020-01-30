@@ -1,0 +1,4 @@
+rofi.location:	2
+rofi.width:		1000
+rofi.lines:		7	
+rofi.theme: /usr/share/rofi/themes/solarized_alternate.rasi
