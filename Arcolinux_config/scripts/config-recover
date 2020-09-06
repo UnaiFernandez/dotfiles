@@ -1,0 +1,29 @@
+#!/bin/bash
+
+############################################################################
+##### THIS SCRIPT COPIES THE OLD CONFIGURATION FILES TO .config FOLDER #####
+############################################################################
+
+
+
+read -p 'Insert backup folder name: ' input
+
+echo "Copying files..."
+
+## Copy i3 config ##
+cp $input/i3/config .config/i3/config
+
+## Copy i3blocks config ##
+cp $input/i3/i3blocks.conf .config/i3/i3blocks.conf
+
+## Copy zsh file ##
+cp .zshrc-backup .zshrc
+
+## Copy mimeapps list ##
+cp $input/mimeapps.list .config/mimeapps.list
+
+## Copy gtk 3.0 settings ##
+cp $input/gtk-3.0/settings.ini .config/gtk-3.0/settings.ini
+
+echo "DONE!!"
+
