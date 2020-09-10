@@ -60,14 +60,14 @@ set $right semicolon
 #####################################################################################################################
 
 
-set $workspace1 "1 "
+set $workspace1 "1 "
 set $workspace2 "2 "
 set $workspace3 "3 "
 set $workspace4 "4 "
-set $workspace5 "5 "
+set $workspace5 "5 "
 set $workspace6 "6 "
 set $workspace7 "7 "
-set $workspace8 "8 "
+set $workspace8 "8 "
 set $workspace9 "9 "
 set $workspace10 "10 "
 
@@ -205,6 +205,9 @@ bindsym $mod+Shift+Right move right
 #################                          moving around workspaces                                 #################
 #####################################################################################################################
 
+# next/previous workspaces
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
 
 #####################################################################################################################
 #################                          Tiling parameters                                        #################
@@ -716,7 +719,7 @@ bar {
         focused_workspace     #2E3440 #2E3440 #E5E9F0
         active_workspace      #2E3440 #2E3440 #E5E9F0
         inactive_workspace    #2E3440 #2E3440 #4C566A
-        urgent_workspace      #2E3440 #BF616A #BF616A
+        urgent_workspace      #2E3440 #BF616A #4C566A
         }
 
     }
