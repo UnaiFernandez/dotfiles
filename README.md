@@ -15,4 +15,10 @@ My linux configurations and dotfiles.
 | File manager     | Thunar                                      |
 |                  |                                                                        |
 
+## Images
+
+### Version 1
 <p align="center"><img width=100% src=".images/ArcoLinux_setup.png"></p>
+
+### Version 2
+<p align="center"><img width=100% src=".images/ArcoLinux_setup2.png"></p>
