@@ -147,3 +147,9 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+" Coc-explorer settings (toggle with Ctrl-n)
+nmap <C-n> :CocCommand explorer<CR>
+" If all buffers are closed except coc-explorer, close coc-explorer
+" automatically
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif

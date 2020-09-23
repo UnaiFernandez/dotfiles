@@ -22,7 +22,7 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 
 " Alternate way to save
-nnoremap <C-s> :w<CR>
+"nnoremap <C-s> :w<CR>
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
 " Use control-c instead of escape
@@ -43,4 +43,8 @@ nnoremap <C-l> <C-w>l
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
+
+"Ctr-D to open terminal in a tab in insert mode
+noremap <C-d> :tabe term://zsh<CR>:startinsert<CR>
+noremap <C-s> :sp term://zsh<CR>:startinsert<CR>

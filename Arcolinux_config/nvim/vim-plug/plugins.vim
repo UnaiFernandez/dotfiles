@@ -21,5 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+    " For folder icon...
+    Plug 'ryanoasis/vim-devicons'
+    " Startify
+    Plug 'mhinz/vim-startify'
 call plug#end()
