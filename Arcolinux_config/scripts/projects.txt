@@ -1,0 +1,3 @@
+P1 /home/unai/Uni/3.MAILA/PK/P1
+BERGA /home/unai/BERGA
+OSPF /home/unai/Uni/3.MAILA/STA/OSPF

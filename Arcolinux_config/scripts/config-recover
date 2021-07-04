@@ -8,6 +8,8 @@
 
 read -p 'Insert backup folder name: ' input
 
+echo "$input"
+
 echo "Copying files..."
 
 ## Copy i3 config ##

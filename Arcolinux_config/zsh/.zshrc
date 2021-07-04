@@ -7,16 +7,18 @@
 
 # Path to your oh-my-zsh installation.
 #installation via script from github
-#export ZSH="/home/$USER/.oh-my-zsh"
+export ZSH="/home/$USER/.oh-my-zsh"
 #installation via yay -S oh-my-zsh-git
-export ZSH=/usr/share/oh-my-zsh/
+#export ZSH=/usr/share/oh-my-zsh/
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="gentoo"
+#ZSH_THEME="gentoo"
+ZSH_THEME="unai"
 
+#ZSH_THEME="archcraft"
 #ZSH_THEME="agnoster"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -113,6 +115,8 @@ setopt GLOB_DOTS
 
 export HISTCONTROL=ignoreboth:erasedups
 
+
+export TERM=xterm-256color
 #PS1='[\u@\h \W]\$ '
 
 if [ -d "$HOME/.bin" ] ;
@@ -122,6 +126,11 @@ fi
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
+
+if [ -d "$HOME/.scripts" ] ;
+  then PATH="$HOME/.scripts:$PATH"
+fi
+
 
 #list
 alias ls='ls --color=auto'
@@ -244,7 +253,7 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
 #iso and version used to install ArcoLinux
-#alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
+alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
 #Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
@@ -272,6 +281,14 @@ alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
+
+
+#project aliases
+alias se='cd Uni/3.MAILA/SE/PROIEKTUA/SE_PRAKTIKA'
+alias std='cd Uni/3.MAILA/STD'
+alias ard='cd Projects/arduino'
+alias dot='cd Projects/dotfiles'
+
 
 
 # # ex = EXtractor for all kinds of archives
