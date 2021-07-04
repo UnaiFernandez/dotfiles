@@ -1,51 +1,50 @@
-Alacrytty
-baobab (analizador de uso de disco)
-thunar
+    Alacrytty
+    baobab (analizador de uso de disco)
+    thunar
 Arduino IDE
 Kicad
-blueberry
-gnome calculator
-gnome calendar
-vim
-pavucontrol
-Discord
-thunar-volman
-gparted
-avahi
-firefox
-zathura
-task manager
-htop
-gtop
+    blueberry
+    gnome calculator
+    gnome calendar
+    vim
+    pavucontrol
+    Discord
+    thunar-volman
+    gparted
+    avahi
+    firefox
+    zathura
+    task manager
+    htop
+    gtop
 office
-meld
-nomacs
+    meld
+    nomacs
 obs
-pdfarranger
-gnome-todo
-telegram
-vlc
-xfce-screenshooter
-acpi
-arandr
-xrandr
-arduino-arv-core
-arvdude
-avr-binutils
-avr-gcc
-avr-libs
-cbatticon
-curl
-etcher-bin
-feh
-git
-i3lock-color
-nm-applet
-oh-my-zsh
-pacman
-pamac-aur
-powertop
-pulseaudio
-textlive
-tlp
-latexk
+    pdfarranger
+    gnome-todo
+    telegram
+    vlc
+    xfce-screenshooter
+    acpi
+    arandr
+    xrandr
+    arduino-arv-core
+    arvdude
+    avr-binutils
+    avr-gcc
+    avr-libs
+    cbatticon
+    curl
+    etcher-bin
+    feh
+    git
+    nm-applet
+    oh-my-zsh
+    pacman
+    pamac-aur
+    powertop
+    pulseaudio
+    textlive
+    tlp
+    latexk
